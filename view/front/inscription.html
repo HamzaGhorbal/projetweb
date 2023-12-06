@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="inscrit.css">
+    <title>Exemple de formulaire</title>
+</head>
+<body>
+    <ul>
+        <li><a href="home.html" class="active">Accueil</a></li>
+        <li><a href="activités.html">Activités</a></li>
+        <li><a href="exposition.html">Exposition</a></li>
+        <li><a href="commande.html">Commande</a></li>
+        <li><a href="tickets.html">Billets</a></li>
+        <li><a href="gu.html">Gestion d'utilisateur</a></li>
+        <li><a href="commentaire.html">Commentaires</a></li>
+    </ul>
+  <br>   
+    <form>
+     <center>  <h2>inscription</h2></center> 
+        <label for="nom">Nom :</label>
+        <input type="text" id="nom" name="nom" required>
+        <br>
+        <label for="prenom">prenom :</label>
+        <input type="text" id="nom" name="nom" required>
+        <br>
+        <label for="age">age:</label>
+        <input type="text" id="nom" name="nom" required>
+        <br>
+
+        <label for="email">Email :</label>
+        <input type="email" id="email" name="email" required>
+
+        <br>
+
+        <label for="tel">tell:</label>
+        <input type="tel" id="tel" name="tel" required>
+        <br>
+
+        <label for="region">region:</label>
+        <select id="region" name="region">
+            <option value="tunisie">tunisie</option>
+            <option value="sfax">sfax</option>
+            <option value="nebeul">nebeul</option>
+            <option value="sousse">sousse</option>
+        </select>
+        
+        <label for="clube">club:</label>
+        <select id="clube" name="clube">
+            <option value="peinture">peinture sur verre</option>
+            <option value="peinture">peinture sur toile</option>
+            <option value="peinture">poterie</option>
+            <option value="peinture">peinture sur soie</option>
+        </select>
+
+        <br>
+        <div class="checkbox-container">
+            <input type="checkbox" id="female" name="female" value="oui">
+            <label for="female">female</label>
+            <input type="checkbox" id="male" name="male" value="oui">
+            <label for="male">male</label>
+          </div>
+
+
+        <br>
+
+        <input type="submit" value="Soumettre">
+        
+        <input type="submit" value="annuler">
+    </form>
+</body>
+</html>

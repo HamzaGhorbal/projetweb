@@ -1,0 +1,109 @@
+
+
+/* Style for the side navbar */
+.activités {
+    list-style-type: none;
+    padding: 0;
+    width: 150px;
+    background-color: rgba(228, 157, 149, 0.831); /* Background color for the sidebar */
+    color: rgb(26, 22, 19); /* Text color for the sidebar items */
+}
+
+.activités li {
+    padding: 10px;
+}
+
+.activités a {
+    text-decoration: none;
+    color: rgb(26, 22, 19);
+}
+
+/* Style for the dropdown submenu */
+.dropdown {
+    display: none; /* Hide the dropdown by default */
+}
+
+.activités li:hover .dropdown {
+    display: block; /* Show the dropdown on hover */
+}
+
+ul{
+    list-style-type:none;     
+    margin:0;
+    padding:0;
+    overflow: hidden;
+    background-color: rgba(239, 235, 229, 0.767);
+     }
+     li{
+         float:left;
+     }
+     li a:hover{
+background-color: rgba(228, 157, 149, 0.831);
+}
+li a
+{
+display:inline-block;
+color: rgb(26, 22, 19);
+text-align:center;
+padding:14px 16px;
+text-decoration:none;
+
+}
+
+.image {
+    display: inline-block;
+    margin: 0 60px; /* Espace entre les images */
+    margin-top: 30px;
+}
+
+body{
+    background-color: rgb(128, 52, 52);
+}
+.footer {
+    background-color: #b6d3c8; /* Couleur d'arrière-plan  */
+    color: #ffffff; /* Couleur du texte  */
+    padding: 3em; /* Rembourrage interne de la barre de pied de page */
+    justify-content: space-between; /* Espacement uniforme des éléments de la barre de pied de page */
+}
+
+.footer-title span {
+    color: #f5f3f4; /* Couleur du texte du titre  */
+}
+.footer .social-icons a {
+    font-size: 1.8em; /* Taille de police des icônes sociales de la barre  */
+    padding: 0 12px 0 0; /* Espacement à droite des icônes sociales de la barre  */
+}
+
+button {
+    background-color: #008CBA; /* Couleur de fond du bouton */
+    color: white; /* Couleur du texte du bouton */
+    border: none; /* Supprimer la bordure du bouton */
+    padding: 10px 20px; /* Espacement intérieur du bouton */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 40px;
+    cursor: pointer;
+    border-radius: 4px; /* Coins arrondis */
+    position: absolute; /* Position absolue pour superposer le bouton sur la vidéo */
+    top: 50%; /* Position verticale au milieu */
+    left: 50%; /* Position horizontale au milieu */
+    transform: translate(-50%, -50%); /* Centrer le bouton en fonction de sa taille */
+    z-index: 1; /* Pour s'assurer que le bouton est au premier plan */
+}
+
+button a {
+    text-decoration: none; /* Supprimer les soulignements du lien à l'intérieur du bouton */
+    color: white; /* Couleur du texte du lien à l'intérieur du bouton */
+}
+
+h3 {
+    
+    font-family: 'Palatino', serif;
+  
+}
+
+
+button:hover {
+    background-color: #005f84; /* Couleur de fond du bouton au survol de la souris */
+}

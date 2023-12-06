@@ -1,0 +1,87 @@
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+.text-container {
+    position: absolute; /* Utilisez "absolute" pour positionner le texte */
+    top: 50px; /* Ajustez cette valeur pour régler la position verticale */
+    right: 50px; /* Ajustez cette valeur pour régler la position horizontale */
+   
+    color: white; /* Couleur du texte */
+    padding: 9px; /* Marge intérieure pour le texte */
+}
+
+.container {
+    text-align: center; /* Align le texte au centre */
+}
+ul{
+    list-style-type:none;     
+    margin:0;
+    padding:0;
+    overflow: hidden;
+    background-color: rgba(239, 235, 229, 0.767);
+     } 
+     li{
+         float:left;
+     }
+     li a:hover{
+background-color: rgba(12, 137, 215, 0.831);
+}
+li a
+{
+display:inline-block;
+color: rgb(26, 22, 19);
+text-align:center;
+padding:14px 16px;
+text-decoration:none;
+
+}
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+.checkbox-container {
+    display: inline-block;
+    margin-right: 10px; /* Espace entre les cases à cocher */
+  }
+input[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+body{
+    background-color: #0056b3;
+}
